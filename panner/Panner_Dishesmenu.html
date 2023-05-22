@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<script>
+ function tk(){
+    a=document.getElementById("name").value
+    
+    b=document.getElementById("number").value
+    c=document.getElementById("list").value
+
+ document.getElementById("print").innerHTML=   "Thank you "+ a +"for buy our resturent panner dishes. "+"<br>"+" when your order complete we will inform in your contact number " +b +"<br>"+ "total amount + Gst "+ c;
+
+
+
+
+
+
+ }
+</script>
+    <style>
+   .tarun{
+    border: 5px dotted white ;
+    width: 600px;
+    height:600px;
+    position: relative;
+    background-color: blanchedalmond;
+    left:110px;
+
+   }
+ .tarun h1{
+    position: absolute;
+    left: 180px;
+ }
+ .menu{
+    width: 230px;
+    height: 40px;
+    position: absolute;
+    left: 150px;
+    font-family: cursive;
+    
+ }
+ .menu:hover{
+    background-color: black;
+    color: antiquewhite;
+
+ }
+
+ .btn4{
+    width:80px;
+    height:40px;
+    position:absolute;
+    left: 200px;
+    top:270px;
+    
+ }
+ .btn4:hover{
+    color:white;
+    background-color: black;
+    
+    
+
+ }
+ 
+ </style>
+</head>
+<body style="background-image:url('https://c4.wallpaperflare.com/wallpaper/559/564/946/cuisine-food-india-indian-wallpaper-preview.jpg');">
+
+
+    <div class="tarun">
+        <h1> WELCOME</h1>
+        
+        <br>
+        <br>
+        <br>
+        
+        <form >
+   <input type="text" class="menu" id="name" placeholder="ENTER YOUR NAME" > 
+
+   <!-- <input type="button" value="click" onclick="tk()"> -->
+   <br>
+   <br>
+   <br>
+   <input type="text" class="menu"  id="number" placeholder="ENTER YOUR PHONE NUMBER">
+   <br>
+   <br>
+   <br>
+   <br>
+   
+   
+
+    <label style="position:absolute;left:170px;font-size: 23px;font-family:'Courier New', Courier, monospace";>PANNEER DISHES</label>
+    <BR>
+    <select id="list" name="list" style="position:absolute;left:155px;font-size: 23px;top:230px";>
+
+      <option value="  => 129 rs ">Paneer Butter Masala </option>
+      <option value="  => 160 rs">Kadai Paneer </option>
+      <option value=" => 160 rs">Malai Kofta </option>
+      <option value=" => 150 rs">Chilli Paneer </option>
+      <option value=" => 140 rs">Paneer Lababdar </option>
+      <option value=" => 140 rs">Paneer Tikka </option>
+      <option value=" => 190 rs"> Shahi paneer</option>
+      <option value=" => 140 rs">Paneer Butter Masala</option>
+      <option value=" => 180 rs">Methi Malai Paneer</option>
+
+    </select> 
+
+
+
+
+   
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="print"  style="position:absolute;top:320px; width:600px;height: 250px;background-color: white;color: blue;;font-family:cursive;font-size: 29px;">    </div>
+
+
+ 
+
+ <input type="button" class="btn4" value="click" onclick="tk()">
+
+
+    </div>
+
+</body>
+</html>
